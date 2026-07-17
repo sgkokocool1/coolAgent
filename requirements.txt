@@ -1,0 +1,14 @@
+# coolAgent 学习路线 — 可选依赖
+# 核心示例默认使用标准库 + shared/MockLLM，无需安装。
+# 若要对接真实 OpenAI 兼容 API 或后续扩展，可安装：
+
+# openai>=1.40.0
+# httpx>=0.27.0
+
+# 以下为进阶阅读时常用框架（按需安装，非运行本仓库示例所必需）：
+# langgraph>=0.2.0
+# langchain-core>=0.3.0
+# crewai>=0.70.0
+# autogen-agentchat>=0.4.0
+# openai-agents>=0.0.3
+# mcp>=1.0.0
